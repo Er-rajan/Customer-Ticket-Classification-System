@@ -35,3 +35,46 @@ ticket-classification-system/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+
+## How to Run the Project
+
+### 1-> Clone the Repository
+
+```bash
+git clone https://github.com/Er-rajan/ticket-classification-system.git
+cd ticket-classification-system
+```
+
+---
+
+### 2-> Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3-> Train the Model
+
+```bash
+python src/train_model.py
+```
+
+->>> This will:
+
+* Load dataset from `data/sample_tickets.csv`
+* Preprocess text
+* Train the machine learning model
+* Save model files in `models/` folder
+
+---
+
+### 4-> Run Prediction
+
+```bash
+python src/predict.py
+
+
+
