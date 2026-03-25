@@ -1,0 +1,11 @@
+text,category
+"My payment failed and money deducted",Billing
+"App crashes when I open it",Technical
+"I forgot my password",Account
+"Order not delivered yet",Delivery
+"Website is very slow",Technical
+"Refund not received",Billing
+"Unable to login",Account
+"Delivery delayed again",Delivery
+"System not working properly",Technical
+"Payment issue urgent",Billing
