@@ -76,5 +76,7 @@ python src/train_model.py
 ```bash
 python src/predict.py
 
+--> run UI
+streamlit run your_app.py
 
 
